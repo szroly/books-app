@@ -6,7 +6,7 @@ type PropsType = {
 }
 
 export const WeeklyPopular = ({weeklyPopulars}: PropsType) => {
-    console.log({weeklyPopulars});
+    // console.log({weeklyPopulars});
 
     const content = weeklyPopulars.map(wp => {
         return (

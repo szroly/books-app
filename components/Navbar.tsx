@@ -10,7 +10,7 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false)
     const router = useRouter()
     
-    console.log({router});
+    // console.log({router});
   return (
 
 

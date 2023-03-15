@@ -2,7 +2,7 @@
 
 const genreWeeklyPopular = async () => {
 
-    // console.log("process.env",process.env.RAPID_HOST);
+    console.log("process.env",process.env.NEXT_PUBLIC_RAPID_HOST);
     
     const options = {
         method: 'GET',
