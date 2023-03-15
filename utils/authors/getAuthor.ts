@@ -4,8 +4,8 @@ const getAuthor = () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '9ef8be9e9cmsh93eb397c12f0dd5p12644bjsn25f3ecf9eb8d',
-            'X-RapidAPI-Host': 'hapi-books.p.rapidapi.com'
+            'X-RapidAPI-Key': process.env.RAPID_KEY,
+            'X-RapidAPI-Host': process.env.RAPID_HOST
         }
     };
 
